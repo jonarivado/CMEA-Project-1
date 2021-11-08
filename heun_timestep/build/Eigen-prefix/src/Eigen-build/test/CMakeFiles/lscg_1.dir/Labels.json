@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/heun_timestep/build/Eigen/test/lscg.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "lscg_1"
+	}
+}

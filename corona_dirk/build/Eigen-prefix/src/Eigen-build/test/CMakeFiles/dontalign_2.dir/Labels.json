@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen/test/dontalign.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "dontalign_2"
+	}
+}

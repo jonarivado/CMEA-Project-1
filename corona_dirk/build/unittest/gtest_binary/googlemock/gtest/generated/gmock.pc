@@ -1,0 +1,9 @@
+libdir=/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/unittest/gtest_binary/lib
+includedir=/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/unittest/gtest_binary/include
+
+Name: gmock
+Description: GoogleMock (without main() function)
+Version: 1.9.0
+URL: https://github.com/google/googletest
+Libs: -L${libdir} -lgmock 
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1 

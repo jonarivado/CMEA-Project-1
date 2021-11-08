@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/dirk.dir/dirk.cpp.o -o dirk.exe -Wl,--out-implib,libdirk.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

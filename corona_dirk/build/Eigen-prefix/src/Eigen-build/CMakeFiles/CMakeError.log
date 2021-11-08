@@ -1,0 +1,386 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_747d0/fast && make[3]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_747d0.dir/build.make CMakeFiles/cmTC_747d0.dir/build
+make[4]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_747d0.dir/src.cxx.o
+/usr/bin/c++.exe -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_747d0.dir/src.cxx.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+make[4]: *** [CMakeFiles/cmTC_747d0.dir/build.make:78: CMakeFiles/cmTC_747d0.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:127: cmTC_747d0/fast] Error 2
+make[3]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_79ed3/fast && make[3]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_79ed3.dir/build.make CMakeFiles/cmTC_79ed3.dir/build
+make[4]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_79ed3.dir/src.cxx.o
+/usr/bin/c++.exe -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_79ed3.dir/src.cxx.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+make[4]: *** [CMakeFiles/cmTC_79ed3.dir/build.make:78: CMakeFiles/cmTC_79ed3.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:127: cmTC_79ed3/fast] Error 2
+make[3]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_12592/fast && make[3]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_12592.dir/build.make CMakeFiles/cmTC_12592.dir/build
+make[4]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12592.dir/src.cxx.o
+/usr/bin/c++.exe -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd981 -o CMakeFiles/cmTC_12592.dir/src.cxx.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd981'
+make[4]: *** [CMakeFiles/cmTC_12592.dir/build.make:78: CMakeFiles/cmTC_12592.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:127: cmTC_12592/fast] Error 2
+make[3]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_b78ed/fast && make[3]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b78ed.dir/build.make CMakeFiles/cmTC_b78ed.dir/build
+make[4]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b78ed.dir/src.cxx.o
+/usr/bin/c++.exe -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd2304 -o CMakeFiles/cmTC_b78ed.dir/src.cxx.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd2304'
+make[4]: *** [CMakeFiles/cmTC_b78ed.dir/build.make:78: CMakeFiles/cmTC_b78ed.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:127: cmTC_b78ed/fast] Error 2
+make[3]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_66efa/fast && make[3]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_66efa.dir/build.make CMakeFiles/cmTC_66efa.dir/build
+make[4]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66efa.dir/src.cxx.o
+/usr/bin/c++.exe -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -strict-ansi -o CMakeFiles/cmTC_66efa.dir/src.cxx.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-strict-ansi'; did you mean '-fstrict-enums'?
+make[4]: *** [CMakeFiles/cmTC_66efa.dir/build.make:78: CMakeFiles/cmTC_66efa.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:127: cmTC_66efa/fast] Error 2
+make[3]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_c2a31/fast && make[3]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_c2a31.dir/build.make CMakeFiles/cmTC_c2a31.dir/build
+make[4]: Entering directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2a31.dir/src.cxx.o
+/usr/bin/c++.exe -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -Qunused-arguments -o CMakeFiles/cmTC_c2a31.dir/src.cxx.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Qunused-arguments'
+make[4]: *** [CMakeFiles/cmTC_c2a31.dir/build.make:78: CMakeFiles/cmTC_c2a31.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:127: cmTC_c2a31/fast] Error 2
+make[3]: Leaving directory '/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_2cb51/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_2cb51.dir/build.make CMakeFiles/cmTC_2cb51.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_2cb51.dir/test_mpi.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2cb51.dir/test_mpi.c.o -c /usr/share/cmake-3.20.0/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.20.0/Modules/FindMPI/test_mpi.c:1:10: schwerwiegender Fehler: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_2cb51.dir/build.make:78: CMakeFiles/cmTC_2cb51.dir/test_mpi.c.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_2cb51/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_71af5/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_71af5.dir/build.make CMakeFiles/cmTC_71af5.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_71af5.dir/test_mpi.cpp.o
+/usr/bin/c++.exe   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  -o CMakeFiles/cmTC_71af5.dir/test_mpi.cpp.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/FindMPI/test_mpi.cpp
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: schwerwiegender Fehler: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_71af5.dir/build.make:78: CMakeFiles/cmTC_71af5.dir/test_mpi.cpp.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_71af5/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Performing C SOURCE FILE Test SCOTCH_Num_4 failed with the following compile output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_a827e/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_a827e.dir/build.make CMakeFiles/cmTC_a827e.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_a827e.dir/src.c.o
+/usr/bin/cc -DSCOTCH_Num_4   -o CMakeFiles/cmTC_a827e.dir/src.c.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.c
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.c:4:10: schwerwiegender Fehler: scotch.h: No such file or directory
+    4 | #include <scotch.h>
+      |          ^~~~~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_a827e.dir/build.make:78: CMakeFiles/cmTC_a827e.dir/src.c.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_a827e/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <scotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 4)
+    return 0;
+  else
+    return 1;
+}
+
+Performing C SOURCE FILE Test SCOTCH_Num_8 failed with the following compile output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_e94d2/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_e94d2.dir/build.make CMakeFiles/cmTC_e94d2.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_e94d2.dir/src.c.o
+/usr/bin/cc -DSCOTCH_Num_8   -o CMakeFiles/cmTC_e94d2.dir/src.c.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.c
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.c:4:10: schwerwiegender Fehler: scotch.h: No such file or directory
+    4 | #include <scotch.h>
+      |          ^~~~~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_e94d2.dir/build.make:78: CMakeFiles/cmTC_e94d2.dir/src.c.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_e94d2/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <scotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 8)
+    return 0;
+  else
+    return 1;
+}
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_0fe6c/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_0fe6c.dir/build.make CMakeFiles/cmTC_0fe6c.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_0fe6c.dir/test_mpi.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0fe6c.dir/test_mpi.c.o -c /usr/share/cmake-3.20.0/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.20.0/Modules/FindMPI/test_mpi.c:1:10: schwerwiegender Fehler: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_0fe6c.dir/build.make:78: CMakeFiles/cmTC_0fe6c.dir/test_mpi.c.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_0fe6c/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_072fd/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_072fd.dir/build.make CMakeFiles/cmTC_072fd.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_072fd.dir/test_mpi.cpp.o
+/usr/bin/c++.exe   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  -o CMakeFiles/cmTC_072fd.dir/test_mpi.cpp.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/FindMPI/test_mpi.cpp
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: schwerwiegender Fehler: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_072fd.dir/build.make:78: CMakeFiles/cmTC_072fd.dir/test_mpi.cpp.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_072fd/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+Performing C SOURCE FILE Test PTSCOTCH_Num_4 failed with the following compile output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_a75a0/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_a75a0.dir/build.make CMakeFiles/cmTC_a75a0.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_a75a0.dir/src.c.o
+/usr/bin/cc -DPTSCOTCH_Num_4   -o CMakeFiles/cmTC_a75a0.dir/src.c.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.c
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.c:4:10: schwerwiegender Fehler: ptscotch.h: No such file or directory
+    4 | #include <ptscotch.h>
+      |          ^~~~~~~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_a75a0.dir/build.make:78: CMakeFiles/cmTC_a75a0.dir/src.c.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_a75a0/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <ptscotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 4)
+    return 0;
+  else
+    return 1;
+}
+
+Performing C SOURCE FILE Test PTSCOTCH_Num_8 failed with the following compile output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_0c748/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_0c748.dir/build.make CMakeFiles/cmTC_0c748.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_0c748.dir/src.c.o
+/usr/bin/cc -DPTSCOTCH_Num_8   -o CMakeFiles/cmTC_0c748.dir/src.c.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.c
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.c:4:10: schwerwiegender Fehler: ptscotch.h: No such file or directory
+    4 | #include <ptscotch.h>
+      |          ^~~~~~~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_0c748.dir/build.make:78: CMakeFiles/cmTC_0c748.dir/src.c.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_0c748/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <ptscotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 8)
+    return 0;
+  else
+    return 1;
+}
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_b9337/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_b9337.dir/build.make CMakeFiles/cmTC_b9337.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_b9337.dir/test_mpi.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b9337.dir/test_mpi.c.o -c /usr/share/cmake-3.20.0/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.20.0/Modules/FindMPI/test_mpi.c:1:10: schwerwiegender Fehler: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_b9337.dir/build.make:78: CMakeFiles/cmTC_b9337.dir/test_mpi.c.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_b9337/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_761c1/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_761c1.dir/build.make CMakeFiles/cmTC_761c1.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_761c1.dir/test_mpi.cpp.o
+/usr/bin/c++.exe   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  -o CMakeFiles/cmTC_761c1.dir/test_mpi.cpp.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/FindMPI/test_mpi.cpp
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: schwerwiegender Fehler: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_761c1.dir/build.make:78: CMakeFiles/cmTC_761c1.dir/test_mpi.cpp.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_761c1/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_5e82f/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_5e82f.dir/build.make CMakeFiles/cmTC_5e82f.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_5e82f.dir/test_mpi.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5e82f.dir/test_mpi.c.o -c /usr/share/cmake-3.20.0/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.20.0/Modules/FindMPI/test_mpi.c:1:10: schwerwiegender Fehler: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_5e82f.dir/build.make:78: CMakeFiles/cmTC_5e82f.dir/test_mpi.c.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_5e82f/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_9cb8c/fast && make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/make  -f CMakeFiles/cmTC_9cb8c.dir/build.make CMakeFiles/cmTC_9cb8c.dir/build
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird betreten
+Building CXX object CMakeFiles/cmTC_9cb8c.dir/test_mpi.cpp.o
+/usr/bin/c++.exe   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  -o CMakeFiles/cmTC_9cb8c.dir/test_mpi.cpp.o -c /cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/FindMPI/test_mpi.cpp
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/FindMPI/test_mpi.cpp:1:10: schwerwiegender Fehler: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+Kompilierung beendet.
+make[4]: *** [CMakeFiles/cmTC_9cb8c.dir/build.make:78: CMakeFiles/cmTC_9cb8c.dir/test_mpi.cpp.o] Fehler 1
+make[4]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+make[3]: *** [Makefile:127: cmTC_9cb8c/fast] Fehler 2
+make[3]: Verzeichnis „/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp“ wird verlassen
+
+
+

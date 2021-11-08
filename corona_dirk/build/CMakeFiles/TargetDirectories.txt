@@ -1,0 +1,10 @@
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/CMakeFiles/dirkconv.dir
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/CMakeFiles/dirk.dir
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/CMakeFiles/forward_euler.dir
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/CMakeFiles/Eigen.dir
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/unittest/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/unittest/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/unittest/CMakeFiles/unittest.dir
+/cygdrive/c/Users/jonat/OneDrive/Documents/CMEA/project1/corona_dirk/build/unittest/CMakeFiles/GTestDownload.dir
