@@ -17,7 +17,7 @@
 
 double TrueSol(double time)
 {
-    return time * exp(-2 * time);
+    return time * exp(-2.0 * time);
 }
 
 void Heun(std::vector<double> &u, std::vector<double> &time,
@@ -59,12 +59,12 @@ int main(int argc, char **argv)
     const double u0 = 0.;
     std::vector<double> time, u, truesol(8), error(8), timestep(8);
 
-    for (int i = 1; i <= 8; i++)
+    for (int i = 0; i < 8; i++)
     {
         Heun(u, time, u0, pow(2, -i), T);
-        truesol.at(i - 1) = TrueSol(T);
-        error.at(i - 1) = std::abs(u.at(u.size() - 1) - truesol.at(i - 1));
-        timestep.at(i - 1) = pow(2, -i);
+        truesol.at(i) = TrueSol(T);
+        error.at(i) = std::abs(u.at(u.size() - 1) - truesol.at(i));
+        timestep.at(i) = pow(2, -i);
     }
     writeToFile("solution.txt", u);
     writeToFile("time.txt", timestep);
